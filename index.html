@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="transfer">
+        <div class="input">
+            <div>Введите сумму:</div>
+            <div>
+                <input type="text" name="before" id="before">
+                <select name="currency" id="currency">
+                    <option value="KZT">KZT</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="kzt">
+            <div class="kzt_currencyName">KZT (tenge)</div>
+            <div class="kzt_output" id="kzt_output">-</div>
+        </div>
+        <div class="usd">
+            <div class="usd_currencyName">USD (dollar)</div>
+            <div class="usd_output" id="usd_output">-</div>
+        </div>
+        <div class="eur">
+            <div class="eur_currencyName">EUR (euro)</div>
+            <div class="eur_output" id="eur_output">-</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>    
+</body>
+</html>
